@@ -1,9 +1,9 @@
 local promethium_drill_recipe = {
     type = "recipe",
-    name = "promethium-drill",
+    name = "promethium-drill-fake",
     category = "crafting-with-fluid",
     energy = 120,
-    products = { { type = "item", name = "promethium-drill", amount = 1 } },
+    products = { { type = "item", name = "promethium-drill-fake", amount = 1 } },
     enabled = true,
     icon = "__PromethiumTech__/graphics/icons/promethium-drill.png",
     hidden_from_player_crafting = true,

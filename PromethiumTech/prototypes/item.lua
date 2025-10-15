@@ -6,8 +6,8 @@ data:extend(
 		icon = "__PromethiumTech__/graphics/icons/promethium-drill.png",
 		icon_size = 64, icon_mipmaps = 4,
 		subgroup = "extraction-machine",
-		order = "a[items]-b[promethium-drill]",
-		place_result = "promethium-drill",
+		order = "a[items]-c[promethium-drill]",
+		place_result = "promethium-drill-fake",
 		stack_size = 5,
 		default_import_location = mods["space-age"] and "vulcanus" or nil,
 		weight = 1000*kg

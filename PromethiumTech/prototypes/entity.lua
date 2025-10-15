@@ -30,7 +30,9 @@ local promethium_drill_entity = {
         dying_explosion = "big-explosion", 
         collision_box = {{-5.1, -5.1}, {5.1, 5.1}},
         selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
-        resource_searching_radius = 0.5,
+        resource_searching_radius = 0.49,
+        allow_copy_paste = true,
+        selectable_in_game = true,
         surface_conditions = {
            { property = "pressure", min = 350 }
         },
@@ -170,10 +172,34 @@ local promethium_drill_entity = {
                             },
                         },
                     },
-                    reset_animation_when_frozen = true,
+                    reset_animation_when_frozen = false,
                 },
             },
         },
     },
 }
 data:extend(promethium_drill_entity)
+local fake_drill = {
+    type = "simple-entity-with-owner",
+    name = "promethium-drill-fake",
+    icon = "__PromethiumTech__/graphics/icons/promethium-drill.png",
+    icon_size = 64,
+    flags = {"placeable-neutral", "player-creation", "placeable-player"},
+    max_health = 1,                     -- trivial health
+    allow_copy_paste = true,
+    selectable_in_game = true,         -- player won’t select it
+    render_layer = "object",
+    collision_box = {{-5.1, -5.1}, {5.1, 5.1}},
+    selection_box = {{-5.5, -5.5}, {5.5, 5.5}},  
+    pictures = {
+        {
+            filename = "__PromethiumTech__/graphics/entity/promethium-drill-big.png",
+            width = 640,
+            height = 640,
+            shift = {0, 0},
+            scale = 0.55
+        }
+    }
+}
+
+data:extend{fake_drill}
