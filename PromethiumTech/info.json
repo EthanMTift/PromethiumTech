@@ -1,0 +1,10 @@
+{
+    "name": "PromethiumTech",
+    "version": "0.1.0",
+    "title": "Promethium Tech",
+    "author": "theFALGSCmustgrow",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0", "space-age >= 2.0"],
+    "description": "Adds late game progression linked to the shattered planet"
+  }
+  
