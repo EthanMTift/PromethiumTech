@@ -2,16 +2,16 @@ local jellyRecipe = table.deepcopy(data.raw.recipe["overgrowth-jellynut-soil"])
 
 jellyRecipe.icon = nil
 jellyRecipe.name = "promethium-jellynut-soil"
-jellyRecipe.surface_conditions = { 
-    pressure = 2000
- }
+jellyRecipe.surface_conditions = {
+    { property = "pressure", min = 2000, max = 2000 }
+  }
 
 
 
 jellyRecipe.ingredients = {
   { type = "item",  name = "overgrowth-jellynut-soil", amount = 1 },
   { type = "item",  name = "foundation", amount = 1 },
-  { type = "fluid", name = "promethium-asteroid-chunk", amount = 10 },
+  { type = "item", name = "promethium-asteroid-chunk", amount = 10 },
 }
 
 jellyRecipe.results = { {

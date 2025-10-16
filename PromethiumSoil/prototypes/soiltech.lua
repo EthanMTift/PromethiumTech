@@ -1,8 +1,14 @@
 local soilTechnology = {
     type = "technology",
     name = "promethium-soils",
-    icon = data.raw["technology"]["overgrowth-soil"],
-    tint = {1, 0, 0, 0.5},
+    icons = {
+        {
+          icon = "__space-age__/graphics/technology/overgrowth-soil.png",
+          icon_size = 256,
+          tint = {0.6, 0, 0, 1},
+        },
+      },
+    
     unit = {
         count = 5000000,
         ingredients = {

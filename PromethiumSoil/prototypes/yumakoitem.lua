@@ -1,7 +1,7 @@
 local yumakoItem = table.deepcopy(data.raw.item["overgrowth-yumako-soil"])
 yumakoItem.default_import_location = "gleba"
 yumakoItem.name = "promethium-yumako-soil"
-yumakoItem.order = "c[landfill]-ee[" .. name .. "]p"
+yumakoItem.order = "c[landfill]-ee[" .. yumakoItem.name .. "]p"
 yumakoItem.place_as_tile = {
   result = "promethium-yumako-soil",
   condition_size = 1,
@@ -55,11 +55,11 @@ yumakoItem.place_as_tile = {
 yumakoItem.icons = {
   {
     icon = "__space-age__/graphics/icons/overgrowth-yumako-soil.png",
-    tint = {1, 0, 0, 0.5}
+    tint = {0.6, 0, 0, 1}
   },
 }
 
 --[[ Plant ]] --
-table.insert(data.raw.plant["jellystem"].autoplace.tile_restriction, "promethium-yumako-soil")
+table.insert(data.raw.plant["yumako-tree"].autoplace.tile_restriction, "promethium-yumako-soil")
 
 data.extend{yumakoItem}

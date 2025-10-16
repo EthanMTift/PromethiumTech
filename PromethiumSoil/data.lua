@@ -1,0 +1,7 @@
+require("prototypes.jellytile")
+require("prototypes.jellyitem")
+require("prototypes.jellyrecipe")
+require("prototypes.yumakotile")
+require("prototypes.yumakoitem")
+require("prototypes.yumakorecipe")
+require("prototypes.soiltech")

@@ -1,25 +1,25 @@
-local jellyRecipe = table.deepcopy(data.raw.recipe["overgrowth-jellynut-soil"])
+local yumakoRecipe = table.deepcopy(data.raw.recipe["overgrowth-yumako-soil"])
 
-jellyRecipe.icon = nil
-jellyRecipe.name = "promethium-jellynut-soil"
-jellyRecipe.surface_conditions = { 
-    pressure = 2000
- }
-
-
-
-jellyRecipe.ingredients = {
-  { type = "item",  name = "overgrowth-jellynut-soil", amount = 1 },
-  { type = "item",  name = "foundation", amount = 1 },
-  { type = "fluid", name = "promethium-asteroid-chunk", amount = 10 },
+yumakoRecipe.icon = nil
+yumakoRecipe.name = "promethium-yumako-soil"
+yumakoRecipe.surface_conditions = {
+  { property = "pressure", min = 2000, max = 2000 }
 }
 
-jellyRecipe.results = { {
+
+
+yumakoRecipe.ingredients = {
+  { type = "item",  name = "overgrowth-yumako-soil", amount = 1 },
+  { type = "item",  name = "foundation", amount = 1 },
+  { type = "item", name = "promethium-asteroid-chunk", amount = 10 },
+}
+
+yumakoRecipe.results = { {
   amount = 1,
-  name = "promethium-jellynut-soil",
+  name = "promethium-yumako-soil",
   type = "item",
 } }
 
-jellyRecipe.enabled = false
+yumakoRecipe.enabled = false
 
-data.extend{jellyRecipe}
+data.extend{yumakoRecipe}

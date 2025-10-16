@@ -1,7 +1,7 @@
 local jellyItem = table.deepcopy(data.raw.item["overgrowth-jellynut-soil"])
 jellyItem.default_import_location = "gleba"
 jellyItem.name = "promethium-jellynut-soil"
-jellyItem.order = "c[landfill]-ee[" .. name .. "]p"
+jellyItem.order = "c[landfill]-ee[" .. jellyItem.name .. "]p"
 jellyItem.place_as_tile = {
   result = "promethium-jellynut-soil",
   condition_size = 1,
@@ -55,7 +55,7 @@ jellyItem.place_as_tile = {
 jellyItem.icons = {
   {
     icon = "__space-age__/graphics/icons/overgrowth-jellynut-soil.png",
-    tint = {1, 0, 0, 0.5}
+    tint = {0.6, 0, 0, 1}
   },
 }
 
