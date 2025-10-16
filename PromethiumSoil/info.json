@@ -1,0 +1,10 @@
+{
+    "name": "PromethiumSoil",
+    "version": "0.1.0",
+    "title": "Promethium Soil",
+    "author": "theFALGSCmustgrow",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0", "space-age >= 2.0"],
+    "description": "Adds a late game Gleba soil upgrade that can be placed anywhere on Gleba"
+  }
+  
