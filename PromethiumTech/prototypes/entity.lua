@@ -164,7 +164,7 @@ local promethium_drill_entity = {
               },
             },
           },
-          reset_animation_when_frozen = false,
+          reset_animation_when_frozen = true,
         },
       },
     },

@@ -1,7 +1,7 @@
 local yumakoItem = table.deepcopy(data.raw.item["overgrowth-yumako-soil"])
 yumakoItem.default_import_location = "gleba"
 yumakoItem.name = "promethium-yumako-soil"
-yumakoItem.order = "c[landfill]-ee[" .. yumakoItem.name .. "]p"
+--yumakoItem.order = "c[landfill]-ee[promethium-yumako-soil]"
 yumakoItem.place_as_tile = {
   result = "promethium-yumako-soil",
   condition_size = 1,
