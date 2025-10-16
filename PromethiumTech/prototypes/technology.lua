@@ -4,9 +4,9 @@ local promethium_drill_technology = {
     type = "technology",
     name = "promethium-drill",
     icon = "__PromethiumTech__/graphics/technology/promethium-drill.png",
-    icon_size = 256,
+    icon_size = 128,
     visible_when_disabled = true,
-    effects = {{type = "unlock-recipe", recipe = "promethium-drill-fake"}},
+    effects = {{type = "unlock-recipe", recipe = "promethium-drill"}},
     unit = {
       count = 5000000,
       ingredients = {
