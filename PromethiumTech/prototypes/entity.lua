@@ -25,6 +25,7 @@ local promethium_drill_entity = {
         icon_size = 64,
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {mining_time = 2.5, result = "promethium-drill"}, 
+        placeable_by = { item = "promethium-drill", count = 1 },
         max_health = 1200, 
         corpse = "big-remnants",
         dying_explosion = "big-explosion", 
@@ -187,7 +188,7 @@ local fake_drill = {
     flags = {"placeable-neutral", "player-creation", "placeable-player"},
     max_health = 1,                     -- trivial health
     allow_copy_paste = true,
-    selectable_in_game = true,         -- player won’t select it
+    selectable_in_game = true,       
     render_layer = "object",
     collision_box = {{-5.1, -5.1}, {5.1, 5.1}},
     selection_box = {{-5.5, -5.5}, {5.5, 5.5}},  

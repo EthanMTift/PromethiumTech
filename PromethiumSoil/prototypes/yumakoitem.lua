@@ -8,6 +8,8 @@ yumakoItem.place_as_tile = {
   condition = { layers = {} },
   tile_condition = {
 
+    "natural-jellynut-soil",
+    "natural-yumako-soil",
     "wetland-jellynut",
     "lowland-cream-red",
     "lowland-red-infection",
@@ -55,7 +57,7 @@ yumakoItem.place_as_tile = {
 yumakoItem.icons = {
   {
     icon = "__space-age__/graphics/icons/overgrowth-yumako-soil.png",
-    tint = {0.6, 0, 0, 1}
+    tint = {245, 145, 46, 1}
   },
 }
 

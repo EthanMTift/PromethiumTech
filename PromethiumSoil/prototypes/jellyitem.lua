@@ -7,7 +7,9 @@ jellyItem.place_as_tile = {
   condition_size = 1,
   condition = { layers = {} },
   tile_condition = {
-
+    
+    "natural-jellynut-soil",
+    "natural-yumako-soil",
     "wetland-jellynut",
     "lowland-cream-red",
     "lowland-red-infection",
@@ -55,7 +57,7 @@ jellyItem.place_as_tile = {
 jellyItem.icons = {
   {
     icon = "__space-age__/graphics/icons/overgrowth-jellynut-soil.png",
-    tint = {0.6, 0, 0, 1}
+    tint = {245, 46, 149, 1}
   },
 }
 

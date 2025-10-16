@@ -5,7 +5,7 @@ local soilTechnology = {
         {
           icon = "__space-age__/graphics/technology/overgrowth-soil.png",
           icon_size = 256,
-          tint = {0.6, 0, 0, 1},
+          tint = {0.8, 0, 0, 1},
         },
       },
     
