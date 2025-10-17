@@ -1,7 +1,6 @@
 local jellyItem = table.deepcopy(data.raw.item["overgrowth-jellynut-soil"])
 jellyItem.default_import_location = "gleba"
 jellyItem.name = "promethium-jellynut-soil"
---jellyItem.order = "c[landfill]-ee[promethium-jellynut-soil]"
 jellyItem.place_as_tile = {
   result = "promethium-jellynut-soil",
   condition_size = 1,

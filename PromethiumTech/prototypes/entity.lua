@@ -36,11 +36,12 @@ local promethium_drill_entity = {
     allow_copy_paste = true,
     selectable_in_game = true,
     surface_conditions = {
-      {property = "pressure", min = 350}
+      {property = "pressure", min = 4000, max = 4000}
     },
 
     crafting_categories = {"promethium-drilling"},
     crafting_speed = 1,
+    fixed_recipe = "vulcanus-digging",
     energy_usage = "12000kW",
     energy_source = {
       type = "electric",
@@ -48,30 +49,6 @@ local promethium_drill_entity = {
       usage_priority = "secondary-input"
     },
 
-    fluid_boxes = {
-      {
-        production_type = "input",
-        pipe_picture = assembler2pipepictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 1000,
-        pipe_connections = {
-          {direction = defines.direction.west, position = {-5, 3}},
-          {direction = defines.direction.west, position = {-5, -3}},
-        }
-      },
-      {
-        production_type = "output",
-        pipe_picture = assembler2pipepictures(),
-        pipe_covers = pipecoverspictures(),
-        volume = 1000,
-        pipe_connections = {
-          {direction = defines.direction.east, position = {5, -3}},
-          {direction = defines.direction.east, position = {5, 3}},
-        }
-      },
-      
-    },
-    off_when_no_fluid_recipe = true,
     module_slots = 6,
     allowed_effects = mods["quality"]
         and {"consumption", "speed", "pollution", "productivity", "quality"}

@@ -2,9 +2,6 @@ for i = 1, 100000 do
     local tech = data.raw["technology"]["mining-productivity-" .. i]
     if not tech then break end
     for _, recipe_name in pairs({
-        "nauvis-digging",
-        "fulgora-digging",
-        "gleba-digging",
         "vulcanus-digging"
     }) do
         table.insert(tech.effects, {

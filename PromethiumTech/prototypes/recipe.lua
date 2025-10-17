@@ -32,50 +32,9 @@ local vulcanus_digging = {
     enabled = true,
     hidden_from_player_crafting = true,
     surface_conditions = {
-        { property = "pressure", min = 150, max = 150 }  -- restricts to Vulcanus
-    }
-}
-local nauvis_digging = {
-    type = "recipe",
-    name = "nauvis-digging",
-    category = "promethium-drilling",
-    maximum_productivity = 9999999,
-    energy_required = 1,
-    ingredients = {},
-    results = {{type="item", name="uranium-ore", amount=4}},
-    enabled = true,
-    hidden_from_player_crafting = true,
-    surface_conditions = {
-        { property = "pressure", min = 1000, max = 1000 }  -- restricts to Nauvis
-    }
-}
-local fulgora_digging = {
-    type = "recipe",
-    name = "fulgora-digging",
-    category = "promethium-drilling",
-    maximum_productivity = 9999999,
-    energy_required = 1,
-    ingredients = {},
-    results = {{type="item", name="scrap", amount=4}},
-    enabled = true,
-    hidden_from_player_crafting = true,
-    surface_conditions = {
-        { property = "pressure", min = 800, max = 800 }  -- restricts to Fulgora
-    }
-}
-local gleba_digging = {
-    type = "recipe",
-    name = "gleba-digging",
-    category = "promethium-drilling",
-    maximum_productivity = 9999999,
-    energy_required = 1,
-    ingredients = {},
-    results = {{type="item", name="stone", amount=4}},
-    enabled = true,
-    hidden_from_player_crafting = true,
-    surface_conditions = {
-        { property = "pressure", min = 2000, max = 2000 }  -- restricts to Gleba
+        { property = "pressure", min = 4000, max = 4000 }  -- restricts to Vulcanus
     }
 }
 
-data:extend({promethium_drill_recipe, vulcanus_digging, nauvis_digging, fulgora_digging, gleba_digging})
+
+data:extend({promethium_drill_recipe, vulcanus_digging})
