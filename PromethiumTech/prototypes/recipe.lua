@@ -1,7 +1,8 @@
+--[[
 local promethium_drill_recipe = {
     type = "recipe",
     name = "promethium-drill",
-    category = "metallurgy",
+    category = data.raw["recipe"]["foundry"].category,
     energy_required = 120,
     products = { { type = "item", name = "promethium-drill", amount = 1 } },
     enabled = false,
@@ -21,6 +22,7 @@ local promethium_drill_recipe = {
         { type = "fluid", name = "lubricant", amount = 500 },
     },
 }
+]]
 local vulcanus_digging = {
     type = "recipe",
     name = "vulcanus-digging",
@@ -35,6 +37,25 @@ local vulcanus_digging = {
         { property = "pressure", min = 4000, max = 4000 }  -- restricts to Vulcanus
     }
 }
+-- Make a copy of the big mining drill recipe
+local promethium_drill_recipe = table.deepcopy(data.raw["recipe"]["big-mining-drill"])
+promethium_drill_recipe.name = "promethium-drill"
+promethium_drill_recipe.icon = "__PromethiumTech__/graphics/icons/promethium-drill.png"
+promethium_drill_recipe.energy_required = 120
+promethium_drill_recipe.results = { { type = "item", name = "promethium-drill", amount = 1 } }
+promethium_drill_recipe.hidden_from_player_crafting = true
+promethium_drill_recipe.allow_inserter_overload = true
+promethium_drill_recipe.overload_multiplier = 2
+promethium_drill_recipe.order = "a[items]-c[promethium-drill]"
+promethium_drill_recipe.ingredients = {
+    { type = "item", name = "promethium-asteroid-chunk", amount = 500 },
+    { type = "item", name = "iron-gear-wheel", amount = 1000 },
+    { type = "item", name = "lithium-plate", amount = 500 },
+    { type = "item", name = "electric-engine-unit", amount = 150 },
+    { type = "item", name = "tungsten-plate", amount = 250 },
+    { type = "fluid", name = "lubricant", amount = 500 },
+}
+
 
 
 data:extend({promethium_drill_recipe, vulcanus_digging})
