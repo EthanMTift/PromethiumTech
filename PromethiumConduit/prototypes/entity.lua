@@ -1,0 +1,114 @@
+local conduit_entity = table.deepcopy(data.raw["accumulator"]["accumulator"])
+
+conduit_entity.name = "promethium-conduit"
+conduit_entity.icon = "__PromethiumConduit__/graphics/icons/promethium-conduit.png"
+conduit_entity.icon_size = 64
+conduit_entity.minable = {mining_time = 2.5, result = "promethium-conduit"}
+conduit_entity.max_health = 800
+conduit_entity.corpse = "accumulator-remnants"
+conduit_entity.next_upgrade = nil 
+conduit_entity.flags = {"placeable-neutral", "placeable-player", "player-creation"}
+conduit_entity.collision_box = {{-1.8, -1.8}, {1.8, 1.8}}
+conduit_entity.selection_box = {{-2.0, -2.0}, {2.0, 2.0}}
+conduit_entity.surface_conditions = {
+  {property = "magnetic-field", min = 99, max = 99}
+}
+
+
+
+
+-- Energy properties: much higher capacity and flow limits
+conduit_entity.energy_source = {
+  type = "electric",
+  buffer_capacity = "600MJ",
+  usage_priority = "tertiary",
+  input_flow_limit = "15MW",
+  output_flow_limit = "15MW",
+}
+
+-- === ChargableGraphics ===
+conduit_entity.chargable_graphics = {
+  picture = {
+    layers = {
+      {
+        filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-animation.png",
+        priority = "high",
+        width = 200,
+        height = 290,
+        scale = 0.50,
+        frame_count = 1,
+        repeat_count = 60,
+        stripes = {
+          {filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-animation.png", width_in_frames = 10, height_in_frames = 6},
+        },
+      },
+      {
+        filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-hr-shadow.png",
+        priority = "high",
+        width = 600,
+        height = 400,
+        draw_as_shadow = true,
+        scale = 0.5
+      }
+    }
+  },
+  charge_animation = {
+    layers = {
+      {
+        filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-animation.png",
+        priority = "high",
+        width = 200,
+        height = 290,
+        frame_count = 60,
+        line_length = 10,
+        scale = 0.5
+      },
+      {
+        filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-emission.png",
+        priority = "high",
+        width = 200,
+        height = 290,
+        frame_count = 60,
+        line_length = 10,
+        scale = 0.5,
+        draw_as_glow = true,
+        blend_mode = "additive"
+      }
+    }
+  },
+  discharge_animation = {
+    layers = {
+      {
+        filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-animation.png",
+        priority = "high",
+        width = 200,
+        height = 290,
+        frame_count = 60,
+        line_length = 10,
+        scale = 0.5
+      },
+      {
+        filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-emission.png",
+        priority = "high",
+        width = 200,
+        height = 290,
+        frame_count = 60,
+        line_length = 10,
+        scale = 0.5,
+        draw_as_glow = true,
+        blend_mode = "additive"
+      }
+    }
+  },
+  charge_cooldown = 30,
+  discharge_cooldown = 30
+}
+
+-- Sound
+conduit_entity.working_sound = {
+  sound = {filename = "__base__/sound/accumulator-working.ogg", volume = 0.8},
+  idle_sound = {filename = "__base__/sound/accumulator-idle.ogg", volume = 0.6},
+  apparent_volume = 1.5
+}
+
+data:extend({conduit_entity})

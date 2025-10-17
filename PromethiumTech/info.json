@@ -5,6 +5,6 @@
     "author": "theFALGSCmustgrow",
     "factorio_version": "2.0",
     "dependencies": ["base >= 2.0", "space-age >= 2.0"],
-    "description": "Adds late game progression linked to the shattered planet"
+    "description": "Adds a late game Vulcanus drill that can mine regardless of resource patches"
   }
   

@@ -1,12 +1,12 @@
 
 
-local promethium_drill_technology = {
+local promethium_conduit_technology = {
     type = "technology",
-    name = "promethium-drill",
-    icon = "__PromethiumTech__/graphics/technology/promethium-drill.png",
+    name = "promethium-conduit",
+    icon = "__PromethiumConduit__/graphics/technology/promethium-conduit.png",
     icon_size = 640,
     visible_when_disabled = true,
-    effects = {{type = "unlock-recipe", recipe = "promethium-drill"}},
+    effects = {{type = "unlock-recipe", recipe = "promethium-conduit"}},
     unit = {
       count = 5000000,
       ingredients = {
@@ -16,7 +16,7 @@ local promethium_drill_technology = {
         {"utility-science-pack", 1},
         {"production-science-pack", 1},
         {"space-science-pack", 1},
-        {"metallurgic-science-pack", 1},
+        {"electromagnetic-science-pack", 1},
         {"cryogenic-science-pack", 1},
         {"promethium-science-pack", 1},
       },
@@ -24,4 +24,4 @@ local promethium_drill_technology = {
     },
     order = "c-g-b-z"
   }
-  data:extend({promethium_drill_technology})
+  data:extend({promethium_conduit_technology})
