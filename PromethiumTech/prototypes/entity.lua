@@ -68,85 +68,95 @@ local promethium_drill_entity = {
     close_sound = sounds.drill_close,
 
     graphics_set = {
-      always_draw_idle_animation = true,
-      idle_animation = {
-        layers = {
-          {
-            filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-shadow.png",
-            priority = "high",
-            width = 1400,
-            height = 1400,
-            frame_count = 1,
-            repeat_count = 1,
-            animation_speed = 0.5,
-            draw_as_shadow = true,
-            scale = 0.5,
-          },
-          {
-            priority = "high",
-            width = 704,
-            height = 704,
-            frame_count = 1,
-            animation_speed = 0.5,
-            scale = 0.5,
-            stripes = {
-              {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-1.png", width_in_frames = 8, height_in_frames = 8},
-            },
-          },
-        },
-      },
-      working_visualisations = {
-        {
-          fadeout = true,
-          sync_fadeout = true,
-          always_draw = true,
-          constant_speed = true,
-          animation = {
+        always_draw_idle_animation = true,  -- must be true
+        idle_animation = {
             layers = {
-              {
-                filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-shadow.png",
-                priority = "high",
-                width = 1400,
-                height = 1400,
-                frame_count = 1,
-                repeat_count = 120,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                scale = 0.5,
-              },
-              {
-                priority = "high",
-                width = 704,
-                height = 704,
-                frame_count = 120,
-                animation_speed = 0.5,
-                scale = 0.5,
-                draw_as_glow = true,
-                blend_mode = "additive",
-                stripes = {
-                  {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-emission-1.png", width_in_frames = 8, height_in_frames = 8},
-                  {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-emission-2.png", width_in_frames = 8, height_in_frames = 8},
+                -- Shadow layer (matches working animation)
+                {
+                    filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-shadow.png",
+                    priority = "high",
+                    width = 1400,
+                    height = 1400,
+                    frame_count = 1,
+                    repeat_count = 120,  -- match working frames
+                    animation_speed = 0.5,
+                    draw_as_shadow = true,
+                    scale = 0.5,
                 },
-              },
-              {
-                priority = "high",
-                width = 704,
-                height = 704,
-                frame_count = 120,
-                animation_speed = 0.5,
-                scale = 0.5,
-                stripes = {
-                  {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-1.png", width_in_frames = 8, height_in_frames = 8},
-                  {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-2.png", width_in_frames = 8, height_in_frames = 8},
-                },
-              },
+                -- Base drill layer
+                {
+                    priority = "high",
+                    width = 704,
+                    height = 704,
+                    frame_count = 1,
+                    repeat_count = 120,
+                    animation_speed = 0.5,
+                    scale = 0.5,
+                    stripes = {
+                        {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-1.png", width_in_frames = 8, height_in_frames = 8},
+                        {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-2.png", width_in_frames = 8, height_in_frames = 7},
+                    },
+                  },
             },
-          },
-          reset_animation_when_frozen = true,
         },
-      },
-    },
-  },
-}
+                
+            
+        
+    
+        working_visualisations = {
+            {
+                fadeout = true,
+                sync_fadeout = true,
+                always_draw = true,
+                constant_speed = true,
+                animation = {
+                    layers = {
+                        {
+                            filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-shadow.png",
+                            priority = "high",
+                            width = 1400,
+                            height = 1400,
+                            frame_count = 1,
+                            repeat_count = 120,
+                            animation_speed = 0.5,
+                            draw_as_shadow = true,
+                            scale = 0.5,
+                        },
+                        {
+                            priority = "high",
+                            width = 704,
+                            height = 704,
+                            frame_count = 120,
+                            animation_speed = 0.5,
+                            scale = 0.5,
+                            draw_as_glow = true,
+                            blend_mode = "additive",
+                            stripes = {
+                                {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-emission-1.png", width_in_frames = 8, height_in_frames = 8},
+                                {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-emission-2.png", width_in_frames = 8, height_in_frames = 7},
+                            },
+                        },
+                        {
+                            priority = "high",
+                            width = 704,
+                            height = 704,
+                            frame_count = 120,
+                            animation_speed = 0.5,
+                            scale = 0.5,
+                            stripes = {
+                                {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-1.png", width_in_frames = 8, height_in_frames = 8},
+                                {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-2.png", width_in_frames = 8, height_in_frames = 7},
+                            },
+                        },
+                    },
+                },
+                reset_animation_when_frozen = false,  -- preserves last frame
+            },
+        },
+    }
+  }
+}    
+
+      
 
 data:extend(promethium_drill_entity)
