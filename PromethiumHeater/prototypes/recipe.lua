@@ -8,7 +8,7 @@ promethium_heater_recipe.enabled = false
 promethium_heater_recipe.hidden_from_player_crafting = true
 promethium_heater_recipe.allow_inserter_overload = true
 promethium_heater_recipe.overload_multiplier = 2
-promethium_heater_recipe.order = "b[energy]-c[promethium-heater]"
+
 
 -- Change category to the heating tower
 promethium_heater_recipe.category = data.raw["recipe"]["heating-tower"].category

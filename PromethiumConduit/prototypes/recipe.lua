@@ -11,7 +11,6 @@ promethium_conduit_recipe.results = { { type = "item", name = "promethium-condui
 promethium_conduit_recipe.hidden_from_player_crafting = true
 promethium_conduit_recipe.allow_inserter_overload = true
 promethium_conduit_recipe.overload_multiplier = 2
-promethium_conduit_recipe.order = "a[items]-c[promethium-conduit]"
 promethium_conduit_recipe.category = data.raw["recipe"]["electromagnetic-science-pack"].category
 promethium_conduit_recipe.ingredients = {
     { type = "item", name = "accumulator", amount = 60 },

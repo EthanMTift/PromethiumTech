@@ -14,28 +14,34 @@ promethium_heater_entity.surface_conditions = {
 promethium_heater_entity.collision_box = {{-4.3, -4.3}, {4.3, 4.3}}
 promethium_heater_entity.selection_box = {{-4.5, -4.5}, {4.5, 4.5}}
 
+
+  
+  
+
 -- Energy source: electric instead of fuel
 promethium_heater_entity.energy_source = {
     type = "electric",
-    buffer_capacity = "500MW",
+    buffer_capacity = "1000MW",
     usage_priority = "secondary-input",
-    input_flow_limit = "250MW",
-    output_flow_limit = "250MW"
+    input_flow_limit = "1000MW",
+    output_flow_limit = "1000MW",
 }
-promethium_heater_entity.consumption = "20MW"
-promethium_heater_entity.scale_energy_usage = true
-promethium_heater_entity.heat_buffer.max_temperature = 2000
-promethium_heater_entity.heat_buffer.minimum_glow_temperature = 30
-promethium_heater_entity.heat_buffer.specific_heat = "50MJ"
+promethium_heater_entity.consumption = "100MW"
+promethium_heater_entity.heating_radius = 24
+promethium_heater_entity.scale_energy_usage = false
+promethium_heater_entity.heat_buffer.max_temperature = 1000
 
 
-promethium_heater_entity.heat_buffer.connections = {
+
+--[[promethium_heater_entity.heat_buffer.connections = {
     { position = {0, -3.9}, direction = defines.direction.north }, -- top edge
     { position = {3.9, 0},  direction = defines.direction.east  }, -- right edge
     { position = {0, 3.9},  direction = defines.direction.south }, -- bottom edge
     { position = {-3.9, 0}, direction = defines.direction.west  }, -- left edge
 }
+]]
 
+promethium_heater_entity.heat_buffer.connections = nil
 
 -- Main animation: 8 rows × 10 columns = 80 frames
 promethium_heater_entity.picture = {
