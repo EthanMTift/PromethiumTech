@@ -9,9 +9,9 @@ jellyRecipe.surface_conditions = {
 
 
 jellyRecipe.ingredients = {
-  { type = "item",  name = "overgrowth-jellynut-soil", amount = 1 },
+  { type = "item",  name = "overgrowth-jellynut-soil", amount = 2 },
   { type = "item",  name = "foundation", amount = 1 },
-  { type = "item", name = "promethium-asteroid-chunk", amount = 10 },
+  { type = "item", name = "tree-seed", amount = 5 },
 }
 
 jellyRecipe.results = { {

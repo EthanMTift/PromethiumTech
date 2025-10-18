@@ -38,6 +38,7 @@ conduit_entity.chargable_graphics = {
         scale = 0.50,
         frame_count = 1,
         repeat_count = 60,
+        shift = {0, -0.5},
         stripes = {
           {filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-animation.png", width_in_frames = 10, height_in_frames = 6},
         },
@@ -48,7 +49,8 @@ conduit_entity.chargable_graphics = {
         width = 600,
         height = 400,
         draw_as_shadow = true,
-        scale = 0.5
+        scale = 0.5,
+        shift = {0, -0.5},
       }
     }
   },
@@ -61,7 +63,8 @@ conduit_entity.chargable_graphics = {
         height = 290,
         frame_count = 60,
         line_length = 10,
-        scale = 0.5
+        scale = 0.5,
+        shift = {0, -0.5},
       },
       {
         filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-emission.png",
@@ -71,6 +74,7 @@ conduit_entity.chargable_graphics = {
         frame_count = 60,
         line_length = 10,
         scale = 0.5,
+        shift = {0, -0.5},
         draw_as_glow = true,
         blend_mode = "additive"
       }
@@ -85,6 +89,7 @@ conduit_entity.chargable_graphics = {
         height = 290,
         frame_count = 60,
         line_length = 10,
+        shift = {0, -0.5},
         scale = 0.5
       },
       {
@@ -94,6 +99,7 @@ conduit_entity.chargable_graphics = {
         height = 290,
         frame_count = 60,
         line_length = 10,
+        shift = {0, -0.5},
         scale = 0.5,
         draw_as_glow = true,
         blend_mode = "additive"

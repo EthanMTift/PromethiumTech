@@ -1,28 +1,4 @@
---[[
-local promethium_drill_recipe = {
-    type = "recipe",
-    name = "promethium-drill",
-    category = data.raw["recipe"]["foundry"].category,
-    energy_required = 120,
-    products = { { type = "item", name = "promethium-drill", amount = 1 } },
-    enabled = false,
-    icon = "__PromethiumTech__/graphics/icons/promethium-drill.png",
-    order = "a[items]-c[promethium-drill]",
-    hidden_from_player_crafting = true,
-    allow_inserter_overload = true,
-    overload_multiplier = 2,
-    allowed_effects = mods["quality"] and {"consumption", "speed", "pollution", "quality"},
 
-    ingredients = {
-        { type = "item", name = "promethium-asteroid-chunk", amount = 500 },
-        { type = "item", name = "iron-gear-wheel", amount = 1000 },
-        { type = "item", name = "lithium-plate", amount = 500 },
-        { type = "item", name = "electric-engine-unit", amount = 150 },
-        { type = "item", name = "tungsten-plate", amount = 250 },
-        { type = "fluid", name = "lubricant", amount = 500 },
-    },
-}
-]]
 local vulcanus_digging = {
     type = "recipe",
     name = "vulcanus-digging",
@@ -48,9 +24,9 @@ promethium_drill_recipe.allow_inserter_overload = true
 promethium_drill_recipe.overload_multiplier = 2
 promethium_drill_recipe.order = "a[items]-c[promethium-drill]"
 promethium_drill_recipe.ingredients = {
-    { type = "item", name = "promethium-asteroid-chunk", amount = 500 },
-    { type = "item", name = "iron-gear-wheel", amount = 1000 },
-    { type = "item", name = "lithium-plate", amount = 500 },
+    { type = "item", name = "carbon-fiber", amount = 100 },
+    { type = "fluid", name = "molten-iron", amount = 800 },
+    { type = "item", name = "lithium-plate", amount = 400 },
     { type = "item", name = "electric-engine-unit", amount = 150 },
     { type = "item", name = "tungsten-plate", amount = 250 },
     { type = "fluid", name = "lubricant", amount = 500 },

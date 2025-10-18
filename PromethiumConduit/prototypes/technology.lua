@@ -17,7 +17,6 @@ local promethium_conduit_technology = {
         {"production-science-pack", 1},
         {"space-science-pack", 1},
         {"electromagnetic-science-pack", 1},
-        {"cryogenic-science-pack", 1},
         {"promethium-science-pack", 1},
       },
       time = 60
