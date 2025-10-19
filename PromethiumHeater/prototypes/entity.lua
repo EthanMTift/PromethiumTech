@@ -29,7 +29,10 @@ promethium_heater_entity.energy_source = {
 promethium_heater_entity.consumption = "100MW"
 promethium_heater_entity.heating_radius = 24
 promethium_heater_entity.scale_energy_usage = false
+promethium_heater_entity.heat_buffer.min_working_temperature = 50
 promethium_heater_entity.heat_buffer.max_temperature = 1000
+promethium_heater_entity.heat_buffer.heat_picture = nil
+promethium_heater_entity.heat_buffer.heat_glow = nil
 
 
 
@@ -42,6 +45,7 @@ promethium_heater_entity.heat_buffer.max_temperature = 1000
 ]]
 
 promethium_heater_entity.heat_buffer.connections = nil
+
 
 -- Main animation: 8 rows × 10 columns = 80 frames
 promethium_heater_entity.picture = {
@@ -69,6 +73,7 @@ promethium_heater_entity.picture = {
 }
 
 -- Working emission lights (charge/glow effect)
+
 promethium_heater_entity.working_light_picture = {
     layers = {
         {
@@ -98,5 +103,6 @@ promethium_heater_entity.working_light_picture = {
         }
     }
 }
+
 
 data:extend({promethium_heater_entity})

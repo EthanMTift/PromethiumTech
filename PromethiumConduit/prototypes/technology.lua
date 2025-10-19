@@ -7,8 +7,9 @@ local promethium_conduit_technology = {
     icon_size = 640,
     visible_when_disabled = true,
     effects = {{type = "unlock-recipe", recipe = "promethium-conduit"}},
+    prerequisites = data.raw["technology"]["research-productivity"].prerequisites,
     unit = {
-      count = 5000000,
+      count = 1000000,
       ingredients = {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},

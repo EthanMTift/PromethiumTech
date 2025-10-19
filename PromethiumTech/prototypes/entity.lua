@@ -68,60 +68,49 @@ local promethium_drill_entity = {
     close_sound = sounds.drill_close,
 
     graphics_set = {
-        always_draw_idle_animation = true,  -- must be true
-        idle_animation = {
+        animation_progress = 1, -- keeps animation continuous
+        always_draw_idle_animation = false, -- disable auto-idle logic
+    
+        -- Single continuous animation (base + shadow)
+        animation = {
             layers = {
-                -- Shadow layer (matches working animation)
+                -- Shadow layer
                 {
                     filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-shadow.png",
                     priority = "high",
                     width = 1400,
                     height = 1400,
                     frame_count = 1,
-                    repeat_count = 120,  -- match working frames
+                    repeat_count = 120,
                     animation_speed = 0.5,
                     draw_as_shadow = true,
                     scale = 0.5,
                 },
-                -- Base drill layer
+                -- Base layer
                 {
                     priority = "high",
                     width = 704,
                     height = 704,
-                    frame_count = 1,
-                    repeat_count = 120,
+                    frame_count = 120,
                     animation_speed = 0.5,
                     scale = 0.5,
                     stripes = {
                         {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-1.png", width_in_frames = 8, height_in_frames = 8},
                         {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-2.png", width_in_frames = 8, height_in_frames = 7},
                     },
-                  },
+                },
             },
         },
-                
-            
-        
     
+        -- Glow and effects appear only when active
         working_visualisations = {
             {
+                always_draw = false, -- only visible when active
                 fadeout = true,
                 sync_fadeout = true,
-                always_draw = true,
-                constant_speed = true,
+                animated_shift = false,
                 animation = {
                     layers = {
-                        {
-                            filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-shadow.png",
-                            priority = "high",
-                            width = 1400,
-                            height = 1400,
-                            frame_count = 1,
-                            repeat_count = 120,
-                            animation_speed = 0.5,
-                            draw_as_shadow = true,
-                            scale = 0.5,
-                        },
                         {
                             priority = "high",
                             width = 704,
@@ -136,26 +125,16 @@ local promethium_drill_entity = {
                                 {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-emission-2.png", width_in_frames = 8, height_in_frames = 7},
                             },
                         },
-                        {
-                            priority = "high",
-                            width = 704,
-                            height = 704,
-                            frame_count = 120,
-                            animation_speed = 0.5,
-                            scale = 0.5,
-                            stripes = {
-                                {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-1.png", width_in_frames = 8, height_in_frames = 8},
-                                {filename = "__PromethiumTech__/graphics/entity/promethium-drill-hr-animation-2.png", width_in_frames = 8, height_in_frames = 7},
-                            },
-                        },
                     },
                 },
-                reset_animation_when_frozen = false,  -- preserves last frame
+                reset_animation_when_frozen = false,
             },
         },
-    }
-  }
-}    
+    },
+  },
+}
+  
+   
 
       
 
