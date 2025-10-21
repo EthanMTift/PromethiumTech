@@ -56,7 +56,7 @@ yumakoItem.place_as_tile = {
 yumakoItem.icons = {
   {
     icon = "__space-age__/graphics/icons/overgrowth-yumako-soil.png",
-    tint = {245, 145, 46, 1}
+    tint = {255, 205, 0}
   },
 }
 

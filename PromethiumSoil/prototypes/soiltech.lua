@@ -3,9 +3,8 @@ local soilTechnology = {
     name = "promethium-soils",
     icons = {
         {
-          icon = "__space-age__/graphics/technology/overgrowth-soil.png",
+          icon = "__PromethiumSoil__/graphics/promethium-soil.png",
           icon_size = 256,
-          tint = {0.8, 0, 0, 1},
         },
       },
     

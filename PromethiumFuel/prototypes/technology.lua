@@ -7,7 +7,6 @@ local promethium_fuel_technology = {
       {
       icon = "__PromethiumFuel__/graphics/promethium_fuel.png",
       icon_size = 64,
-      tint = {223, 0, 0},
       }
     },
     visible_when_disabled = true,

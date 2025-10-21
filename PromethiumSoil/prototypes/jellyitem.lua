@@ -56,7 +56,7 @@ jellyItem.place_as_tile = {
 jellyItem.icons = {
   {
     icon = "__space-age__/graphics/icons/overgrowth-jellynut-soil.png",
-    tint = {245, 46, 149, 1}
+    tint = {245, 46, 149}
   },
 }
 

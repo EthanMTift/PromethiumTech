@@ -7,7 +7,6 @@ fuel_recipe.icons = {
     {
     icon = "__PromethiumFuel__/graphics/promethium_fuel.png",
     icon_size = 64,
-    tint = {223, 0, 0},
     }
 }
 fuel_recipe.enabled = false
