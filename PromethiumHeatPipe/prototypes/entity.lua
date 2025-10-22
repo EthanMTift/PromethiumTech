@@ -1431,7 +1431,7 @@ promethium_heat_pipe.heat_glow_sprites = {
   promethium_heat_pipe.max_health = 400
   promethium_heat_pipe.minable = {
     mining_time = 0.1,
-    result = "heat-pipe"
+    result = "promethium-heat-pipe"
   }
   promethium_heat_pipe.name = "promethium-heat-pipe"
   promethium_heat_pipe.random_corpse_variation = true
