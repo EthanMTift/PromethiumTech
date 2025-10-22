@@ -1,0 +1,10 @@
+{
+    "name": "PromethiumHeatPipe",
+    "version": "0.1.0",
+    "title": "Promethium Heat Pipe",
+    "author": "theFALGSCmustgrow",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0", "space-age >= 2.0"],
+    "description": "Adds a late game heat pipe with an increased radius"
+  }
+  

@@ -5,3 +5,4 @@ data.raw["reactor"]["heating-tower"].energy_source = {
     input_flow_limit = "1000MW",
     output_flow_limit = "1000MW",
 }
+
