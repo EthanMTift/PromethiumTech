@@ -26,6 +26,7 @@ local promethium_drill_entity = {
     icon = "__PromethiumTech__/graphics/icons/promethium-drill.png",
     icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
+    match_animation_speed_to_activity = false,
     minable = {mining_time = 2.5, result = "promethium-drill"},
     placeable_by = {item = "promethium-drill", count = 1},
     max_health = 1200,

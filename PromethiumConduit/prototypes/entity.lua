@@ -8,8 +8,8 @@ conduit_entity.max_health = 800
 conduit_entity.corpse = "accumulator-remnants"
 conduit_entity.next_upgrade = nil 
 conduit_entity.flags = {"placeable-neutral", "placeable-player", "player-creation"}
-conduit_entity.collision_box = {{-1.8, -1.8}, {1.8, 1.8}}
-conduit_entity.selection_box = {{-2.0, -2.0}, {2.0, 2.0}}
+conduit_entity.collision_box = {{-1.5, -1.5}, {1.8, 1.8}}
+conduit_entity.selection_box = {{-1.8, -1.8}, {2.0, 2.0}}
 conduit_entity.surface_conditions = {
   {property = "magnetic-field", min = 99, max = 99}
 }
@@ -38,7 +38,7 @@ conduit_entity.chargable_graphics = {
         scale = 0.50,
         frame_count = 1,
         repeat_count = 60,
-        shift = {0, -0.5},
+        shift = {0, 0},
         stripes = {
           {filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-animation.png", width_in_frames = 10, height_in_frames = 6},
         },
@@ -50,7 +50,7 @@ conduit_entity.chargable_graphics = {
         height = 400,
         draw_as_shadow = true,
         scale = 0.5,
-        shift = {0, -0.5},
+        shift = {0, 0},
       }
     }
   },
@@ -64,7 +64,7 @@ conduit_entity.chargable_graphics = {
         frame_count = 60,
         line_length = 10,
         scale = 0.5,
-        shift = {0, -0.5},
+        shift = {0, 0},
       },
       {
         filename = "__PromethiumConduit__/graphics/entity/promethium-conduit-emission.png",
@@ -74,7 +74,7 @@ conduit_entity.chargable_graphics = {
         frame_count = 60,
         line_length = 10,
         scale = 0.5,
-        shift = {0, -0.5},
+        shift = {0, 0},
         draw_as_glow = true,
         blend_mode = "additive"
       }
@@ -89,7 +89,7 @@ conduit_entity.chargable_graphics = {
         height = 290,
         frame_count = 60,
         line_length = 10,
-        shift = {0, -0.5},
+        shift = {0, 0},
         scale = 0.5
       },
       {
@@ -99,7 +99,7 @@ conduit_entity.chargable_graphics = {
         height = 290,
         frame_count = 60,
         line_length = 10,
-        shift = {0, -0.5},
+        shift = {0, 0},
         scale = 0.5,
         draw_as_glow = true,
         blend_mode = "additive"
