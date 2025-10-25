@@ -4,7 +4,7 @@ local promethium_conduit_technology = {
     type = "technology",
     name = "promethium-conduit",
     icon = "__PromethiumConduit__/graphics/technology/promethium-conduit.png",
-    icon_size = 640,
+    icon_size = 2560,
     visible_when_disabled = true,
     effects = {{type = "unlock-recipe", recipe = "promethium-conduit"}},
     prerequisites = data.raw["technology"]["research-productivity"].prerequisites,

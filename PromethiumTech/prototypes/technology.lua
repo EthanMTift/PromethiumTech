@@ -4,9 +4,9 @@ local promethium_drill_technology = {
     type = "technology",
     name = "promethium-drill",
     icon = "__PromethiumTech__/graphics/technology/promethium-drill.png",
-    icon_size = 640,
+    icon_size = 2560,
     visible_when_disabled = true,
-    effects = {{type = "unlock-recipe", recipe = "promethium-drill"}},
+    effects = {{type = "unlock-recipe", recipe = "promethium-drill"}, {type = "unlock-recipe", recipe = "vulcanus-digging"}},
     prerequisites = data.raw["technology"]["research-productivity"].prerequisites,
     unit = {
       count = 1000000,

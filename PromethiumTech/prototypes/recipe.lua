@@ -7,7 +7,7 @@ local vulcanus_digging = {
     energy_required = 1,
     ingredients = {},
     results = {{type="item", name="tungsten-ore", amount=4}},
-    enabled = true,
+    enabled = false,
     hidden_from_player_crafting = true,
     surface_conditions = {
         { property = "pressure", min = 4000, max = 4000 }  -- restricts to Vulcanus

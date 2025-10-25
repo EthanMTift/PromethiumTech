@@ -22,8 +22,8 @@ conduit_entity.energy_source = {
   type = "electric",
   buffer_capacity = "600MJ",
   usage_priority = "tertiary",
-  input_flow_limit = "15MW",
-  output_flow_limit = "15MW",
+  input_flow_limit = "60MW",
+  output_flow_limit = "60MW",
 }
 
 -- === ChargableGraphics ===
