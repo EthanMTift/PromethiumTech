@@ -8,17 +8,17 @@ promethium_heat_pipe.enabled = false
 promethium_heat_pipe.hidden_from_player_crafting = true
 promethium_heat_pipe.allow_inserter_overload = true
 promethium_heat_pipe.overload_multiplier = 2
-promethium_heat_pipe.category = "crafting-with-fluid"
+promethium_heat_pipe.category = "cryogenics"
 
 
 
 
 -- Ingredients for the Promethium Heater
 promethium_heat_pipe.ingredients = {
-    { type = "item", name = "lithium-plate", amount = 5 },
     { type = "item", name = "heat-pipe", amount = 1 },
     { type = "item", name = "tungsten-plate", amount = 5 },
     { type = "fluid", name = "fluoroketone-hot", amount = 20},
+    { type = "fluid", name = "holmium-solution", amount = 50 },
 }
 
 -- The results field
