@@ -49,7 +49,8 @@ local promethium_cargo_hub = {
               run_mode = "forward",
               scale = 1,
               shift = {
-                2.625000, -7.718750
+                1.3125,
+                -3.859375
               },
               width = 344
             },
@@ -62,7 +63,8 @@ local promethium_cargo_hub = {
               run_mode = "forward",
               scale = 1,
               shift = {
-                11.187500, -2.125000
+                5.59375,
+                -1.0625
               },
               width = 468
             },
@@ -76,7 +78,8 @@ local promethium_cargo_hub = {
               run_mode = "forward",
               scale = 1,
               shift = {
-                3.843750, -8.781250
+                1.921875,
+                -4.390625
               },
               width = 260
             },
@@ -112,7 +115,8 @@ local promethium_cargo_hub = {
               run_mode = "forward",
               scale = 1,
               shift = {
-                -0.781250, -3.093750
+                -0.390625,
+                -1.546875
               },
               width = 108
             }
@@ -128,7 +132,8 @@ local promethium_cargo_hub = {
               run_mode = "forward",
               scale = 1,
               shift = {
-                2.312500, -4.187500
+                1.15625,
+                -2.09375
               },
               width = 232
             }
@@ -282,7 +287,8 @@ local promethium_cargo_hub = {
           repeat_count = 1,
           scale = 1,
           shift = {
-            -2.750000, -0.562500
+            -1.375,
+            -0.28125
           },
           width = 116
         }
@@ -298,7 +304,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1332,
@@ -313,7 +320,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1320,
@@ -325,7 +333,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 888,
@@ -338,7 +347,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 912,
@@ -356,7 +366,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1554,
@@ -371,7 +382,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1540,
@@ -383,7 +395,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 1036,
@@ -396,7 +409,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 1064,
@@ -409,7 +423,8 @@ local promethium_cargo_hub = {
                 height = 114,
                 scale = 1,
                 shift = {
-                  0.031250, -1.031250
+                  0.015625,
+                  -0.515625
                 },
                 width = 96,
                 x = 672,
@@ -429,7 +444,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1332,
@@ -444,7 +460,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1320,
@@ -456,7 +473,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 888,
@@ -469,7 +487,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 912,
@@ -481,7 +500,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 1524,
@@ -499,7 +519,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1554,
@@ -514,7 +535,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1540,
@@ -526,7 +548,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 1036,
@@ -539,7 +562,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 1064,
@@ -551,7 +575,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 1778,
@@ -571,7 +596,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 888,
@@ -586,7 +612,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 880,
@@ -598,7 +625,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 592,
@@ -611,7 +639,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 608,
@@ -623,7 +652,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 1016,
@@ -641,7 +671,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1110,
@@ -656,7 +687,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1100,
@@ -668,7 +700,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 740,
@@ -681,7 +714,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 760,
@@ -693,7 +727,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 1270,
@@ -713,7 +748,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 888,
@@ -728,7 +764,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 880,
@@ -740,7 +777,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 592,
@@ -753,7 +791,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 608,
@@ -765,7 +804,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 1016,
@@ -783,7 +823,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1110,
@@ -798,7 +839,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1100,
@@ -810,7 +852,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 740,
@@ -823,7 +866,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 760,
@@ -835,7 +879,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 1270,
@@ -848,7 +893,8 @@ local promethium_cargo_hub = {
                 height = 114,
                 scale = 1,
                 shift = {
-                  0.031250, -1.031250
+                  0.015625,
+                  -0.515625
                 },
                 width = 96,
                 x = 480,
@@ -868,7 +914,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 0,
@@ -883,7 +930,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 0,
@@ -895,7 +943,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 0,
@@ -908,7 +957,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 0,
@@ -921,7 +971,8 @@ local promethium_cargo_hub = {
                 height = 114,
                 scale = 1,
                 shift = {
-                  0.031250, -1.031250
+                  0.015625,
+                  -0.515625
                 },
                 width = 96,
                 x = 0,
@@ -939,7 +990,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 222,
@@ -954,7 +1006,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 220,
@@ -966,7 +1019,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 148,
@@ -979,7 +1033,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 152,
@@ -991,7 +1046,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 254,
@@ -1009,7 +1065,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 444,
@@ -1024,7 +1081,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 440,
@@ -1036,7 +1094,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 296,
@@ -1049,7 +1108,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 304,
@@ -1061,7 +1121,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 508,
@@ -1079,7 +1140,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 666,
@@ -1094,7 +1156,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 660,
@@ -1106,7 +1169,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 444,
@@ -1119,7 +1183,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 456,
@@ -1131,7 +1196,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 762,
@@ -1151,7 +1217,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1332,
@@ -1166,7 +1233,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1320,
@@ -1178,7 +1246,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 888,
@@ -1191,7 +1260,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 912,
@@ -1209,7 +1279,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1554,
@@ -1224,7 +1295,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1540,
@@ -1236,7 +1308,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 1036,
@@ -1249,7 +1322,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 1064,
@@ -1269,7 +1343,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1110,
@@ -1284,7 +1359,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1100,
@@ -1296,7 +1372,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 740,
@@ -1309,7 +1386,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 760,
@@ -1329,7 +1407,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 222,
@@ -1344,7 +1423,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 220,
@@ -1356,7 +1436,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 148,
@@ -1369,7 +1450,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 152,
@@ -1387,7 +1469,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 444,
@@ -1402,7 +1485,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 440,
@@ -1414,7 +1498,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 296,
@@ -1427,7 +1512,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 304,
@@ -1447,7 +1533,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 0,
@@ -1462,7 +1549,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 0,
@@ -1474,7 +1562,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 0,
@@ -1487,7 +1576,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 0,
@@ -1507,7 +1597,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 666,
@@ -1522,7 +1613,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 660,
@@ -1534,7 +1626,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 444,
@@ -1547,7 +1640,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 456,
@@ -1565,7 +1659,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 888,
@@ -1580,7 +1675,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 880,
@@ -1592,7 +1688,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 592,
@@ -1605,7 +1702,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 608,
@@ -1625,7 +1723,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 888,
@@ -1640,7 +1739,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 880,
@@ -1652,7 +1752,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 592,
@@ -1665,7 +1766,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 608,
@@ -1683,7 +1785,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1110,
@@ -1698,7 +1801,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1100,
@@ -1710,7 +1814,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 740,
@@ -1723,7 +1828,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 760,
@@ -1741,7 +1847,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1332,
@@ -1756,7 +1863,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1320,
@@ -1768,7 +1876,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 888,
@@ -1781,7 +1890,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 912,
@@ -1799,7 +1909,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1554,
@@ -1814,7 +1925,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1540,
@@ -1826,7 +1938,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 1036,
@@ -1839,7 +1952,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 1064,
@@ -1859,7 +1973,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 0,
@@ -1874,7 +1989,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 0,
@@ -1886,7 +2002,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 0,
@@ -1899,7 +2016,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 0,
@@ -1911,7 +2029,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 0,
@@ -1929,7 +2048,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 222,
@@ -1944,7 +2064,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 220,
@@ -1956,7 +2077,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 148,
@@ -1969,7 +2091,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 152,
@@ -1981,7 +2104,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 254,
@@ -1999,7 +2123,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 444,
@@ -2014,7 +2139,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 440,
@@ -2026,7 +2152,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 296,
@@ -2039,7 +2166,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 304,
@@ -2051,7 +2179,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 508,
@@ -2069,7 +2198,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 666,
@@ -2084,7 +2214,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 660,
@@ -2096,7 +2227,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 444,
@@ -2109,7 +2241,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 456,
@@ -2121,7 +2254,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 762,
@@ -2141,7 +2275,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 444,
@@ -2156,7 +2291,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 440,
@@ -2168,7 +2304,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 296,
@@ -2181,7 +2318,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 304,
@@ -2199,7 +2337,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 666,
@@ -2214,7 +2353,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 660,
@@ -2226,7 +2366,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 444,
@@ -2239,7 +2380,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 456,
@@ -2259,7 +2401,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 444,
@@ -2274,7 +2417,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 440,
@@ -2286,7 +2430,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 296,
@@ -2299,7 +2444,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 304,
@@ -2317,7 +2463,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 666,
@@ -2332,7 +2479,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 660,
@@ -2344,7 +2492,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 444,
@@ -2357,7 +2506,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 456,
@@ -2377,7 +2527,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 0,
@@ -2392,7 +2543,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 0,
@@ -2404,7 +2556,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 0,
@@ -2417,7 +2570,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 0,
@@ -2429,7 +2583,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 0,
@@ -2447,7 +2602,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 222,
@@ -2462,7 +2618,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 220,
@@ -2474,7 +2631,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 148,
@@ -2487,7 +2645,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 152,
@@ -2499,7 +2658,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 254,
@@ -2519,7 +2679,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 0,
@@ -2534,7 +2695,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 0,
@@ -2546,7 +2708,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 0,
@@ -2559,7 +2722,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 0,
@@ -2571,7 +2735,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 0,
@@ -2589,7 +2754,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 222,
@@ -2604,7 +2770,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 220,
@@ -2616,7 +2783,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 148,
@@ -2629,7 +2797,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 152,
@@ -2641,7 +2810,8 @@ local promethium_cargo_hub = {
                 height = 216,
                 scale = 1,
                 shift = {
-                  2.031250, 0.562500
+                  1.015625,
+                  0.28125
                 },
                 width = 254,
                 x = 254,
@@ -2661,7 +2831,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 888,
@@ -2676,7 +2847,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 880,
@@ -2688,7 +2860,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 592,
@@ -2701,7 +2874,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 608,
@@ -2719,7 +2893,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1110,
@@ -2734,7 +2909,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1100,
@@ -2746,7 +2922,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 740,
@@ -2759,7 +2936,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 760,
@@ -2777,7 +2955,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1332,
@@ -2792,7 +2971,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1320,
@@ -2804,7 +2984,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 888,
@@ -2817,7 +2998,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 912,
@@ -2835,7 +3017,8 @@ local promethium_cargo_hub = {
                 height = 270,
                 scale = 1,
                 shift = {
-                  0.156250, -0.062500
+                  0.078125,
+                  -0.03125
                 },
                 width = 222,
                 x = 1554,
@@ -2850,7 +3033,8 @@ local promethium_cargo_hub = {
             render_layer = "lower-object-overlay",
             scale = 1,
             shift = {
-              0.031250, -1.500000
+              0.015625,
+              -0.75
             },
             width = 220,
             x = 1540,
@@ -2862,7 +3046,8 @@ local promethium_cargo_hub = {
             render_layer = "object-under",
             scale = 1,
             shift = {
-              -0.156250, -0.375000
+              -0.078125,
+              -0.1875
             },
             width = 148,
             x = 1036,
@@ -2875,7 +3060,8 @@ local promethium_cargo_hub = {
                 height = 164,
                 scale = 1,
                 shift = {
-                  -0.062500, -1.281250
+                  -0.03125,
+                  -0.640625
                 },
                 width = 152,
                 x = 1064,
@@ -2896,7 +3082,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              -2.468750, 3.968750
+              -1.234375,
+              1.984375
             },
             width = 290
           },
@@ -2906,7 +3093,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              -6.187500, -4.718750
+              -3.09375,
+              -2.359375
             },
             width = 66
           },
@@ -2916,7 +3104,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              6.562500, -4.093750
+              3.28125,
+              -2.046875
             },
             width = 66
           },
@@ -2926,7 +3115,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              6.437500, 2.062500
+              3.21875,
+              1.03125
             },
             width = 96
           }
@@ -2941,7 +3131,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              -1.625000, 4.312500
+              -0.8125,
+              2.15625
             },
             width = 210
           },
@@ -2951,7 +3142,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              -1.968750, -7.062500
+              -0.984375,
+              -3.53125
             },
             width = 108
           },
@@ -2961,7 +3153,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              6.093750, -7.125000
+              3.046875,
+              -3.5625
             },
             width = 96
           }
@@ -2976,7 +3169,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              0.343750, -2.125000
+              0.171875,
+              -1.0625
             },
             width = 476
           }
@@ -2991,7 +3185,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              0.000000, -2.062500
+              0,
+              -1.03125
             },
             width = 498
           },
@@ -3002,7 +3197,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              11.968750, 1.500000
+              5.984375,
+              0.75
             },
             width = 318
           },
@@ -3014,7 +3210,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              2.000000, 1.093750
+              1,
+              0.546875
             },
             width = 244
           },
@@ -3026,7 +3223,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              2.500000, -6.281250
+              1.25,
+              -3.140625
             },
             width = 232
           }
@@ -3041,7 +3239,8 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              2.875000, -3.812500
+              1.4375,
+              -1.90625
             },
             width = 280
           }
@@ -3057,7 +3256,8 @@ local promethium_cargo_hub = {
         priority = "extra-high",
         scale = 4,
         shift = {
-          0.000000, 10.000000
+          0,
+          5
         },
         variation_count = 1,
         width = 64
@@ -3091,7 +3291,8 @@ local promethium_cargo_hub = {
     line_length = 4,
     scale = 1,
     shift = {
-      -4.156250, -5.531250
+      -2.078125,
+      -2.765625
     },
     width = 42
   },
