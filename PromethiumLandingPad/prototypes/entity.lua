@@ -3066,8 +3066,8 @@ local promethium_cargo_hub = {
     }
   },
   icon = "__base__/graphics/icons/cargo-landing-pad.png",
-  inventory_size = 80,
-  max_health = 1000,
+  inventory_size = 320,
+  max_health = 4000,
   minable = {
     mining_time = 1,
     result = "promethium-landing-pad"
