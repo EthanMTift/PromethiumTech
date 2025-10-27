@@ -3002,7 +3002,7 @@ local promethium_cargo_hub = {
             line_length = 1,
             scale = 1,
             shift = {
-              11.968750, 1.500000
+              11.968750, -0.500000
             },
             width = 318
           },
