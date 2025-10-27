@@ -60,7 +60,7 @@ local promethium_cargo_hub = {
               height = 226,
               line_length = 6,
               run_mode = "forward",
-              scale = 1,
+              scale = 0,
               shift = {
                 11.187500, -2.125000
               },
@@ -172,12 +172,12 @@ local promethium_cargo_hub = {
         cargo_unit_entity_to_spawn = "",
         illumination_graphic_index = 506,
         offset = {
-          0.5,
-          -3.5
+          2.5,
+          -5.5
         },
         pod_shadow_offset = {
-          2,
-          2.5
+          4,
+          4.5
         },
         receiving_cargo_units = {
           "cargo-pod"
@@ -190,12 +190,12 @@ local promethium_cargo_hub = {
         cargo_unit_entity_to_spawn = "",
         illumination_graphic_index = 507,
         offset = {
-          2,
-          -3.5
+          4,
+          -5.5
         },
         pod_shadow_offset = {
-          2,
-          2.5
+          4,
+          4.5
         },
         receiving_cargo_units = {
           "cargo-pod"
@@ -208,12 +208,12 @@ local promethium_cargo_hub = {
         cargo_unit_entity_to_spawn = "",
         illumination_graphic_index = 508,
         offset = {
-          1.25,
-          -2.5
+          3.25,
+          -4.5
         },
         pod_shadow_offset = {
-          2,
-          2.5
+          4,
+          4.5
         },
         receiving_cargo_units = {
           "cargo-pod"
@@ -479,7 +479,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   3.031250, -0.437500
                 },
@@ -549,7 +549,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   3.031250, -0.437500
                 },
@@ -621,9 +621,9 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
-                  1.031250, -0.437500
+                  1.031250, -1.437500
                 },
                 width = 254,
                 x = 1016,
@@ -691,9 +691,9 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
-                  1.031250, -0.437500
+                  1.031250, -1.437500
                 },
                 width = 254,
                 x = 1270,
@@ -763,9 +763,9 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
-                  1.031250, -0.437500
+                  1.031250, -1.437500
                 },
                 width = 254,
                 x = 1016,
@@ -833,9 +833,9 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
-                  1.031250, -0.437500
+                  1.031250, -1.437500
                 },
                 width = 254,
                 x = 1270,
@@ -989,7 +989,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   2.031250, -0.437500
                 },
@@ -1059,7 +1059,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   2.031250, -0.437500
                 },
@@ -1129,7 +1129,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   2.031250, -0.437500
                 },
@@ -1909,7 +1909,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 0.562500
                 },
@@ -1979,7 +1979,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 0.562500
                 },
@@ -2049,7 +2049,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 0.562500
                 },
@@ -2119,7 +2119,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 0.562500
                 },
@@ -2427,7 +2427,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 1.562500
                 },
@@ -2497,7 +2497,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 1.562500
                 },
@@ -2569,7 +2569,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 1.562500
                 },
@@ -2639,7 +2639,7 @@ local promethium_cargo_hub = {
                 draw_as_shadow = true,
                 filename = "__base__/graphics/entity/cargo-hubs/connections/shared-connections-shadow.png",
                 height = 216,
-                scale = 1,
+                scale = 0,
                 shift = {
                   1.031250, 1.562500
                 },
@@ -3000,9 +3000,9 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/hubs/planet-hub-shadow.png",
             height = 408,
             line_length = 1,
-            scale = 1,
+            scale = 0,
             shift = {
-              11.968750, -0.500000
+              11.968750, -1.500000
             },
             width = 318
           },
@@ -3124,8 +3124,8 @@ local promethium_cargo_hub = {
     }
   },
   robot_landing_location_offset = {
-    -2.1000000000000001,
-    -2.7999999999999998
+    -4.1000000000000001,
+    -4.7999999999999998
   },
   robot_opened_duration = 7,
   selection_box = {
