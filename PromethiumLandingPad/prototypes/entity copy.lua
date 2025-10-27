@@ -1149,7 +1149,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-0.png",
                 height = 270,
-                scale = 0.5,
+                scale = 1,
                 shift = {
                   0.156250, -0.062500
                 },
@@ -1207,7 +1207,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-0.png",
                 height = 270,
-                scale = 0.5,
+                scale = 1,
                 shift = {
                   0.156250, -0.062500
                 },
@@ -1267,7 +1267,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-0.png",
                 height = 270,
-                scale = 0.5,
+                scale = 1,
                 shift = {
                   0.156250, -0.062500
                 },
@@ -1342,7 +1342,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-1.png",
             height = 168,
             render_layer = "lower-object-overlay",
-            scale = 1,
+            scale = 0.5,
             shift = {
               0.031250, -1.500000
             },
@@ -1354,7 +1354,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-2.png",
             height = 198,
             render_layer = "object-under",
-            scale = 1,
+            scale = 0.5,
             shift = {
               -0.156250, -0.375000
             },
@@ -1367,7 +1367,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-3.png",
                 height = 164,
-                scale = 1,
+                scale = 0.5,
                 shift = {
                   -0.062500, -1.281250
                 },
@@ -1400,7 +1400,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-1.png",
             height = 168,
             render_layer = "lower-object-overlay",
-            scale = 1,
+            scale = 0.5,
             shift = {
               0.031250, -1.500000
             },
@@ -1412,7 +1412,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-2.png",
             height = 198,
             render_layer = "object-under",
-            scale = 1,
+            scale = 0.5,
             shift = {
               -0.156250, -0.375000
             },
@@ -1425,7 +1425,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-3.png",
                 height = 164,
-                scale = 1,
+                scale = 0.5,
                 shift = {
                   -0.062500, -1.281250
                 },
@@ -1445,7 +1445,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-0.png",
                 height = 270,
-                scale = 0.5,
+                scale = 1,
                 shift = {
                   0.156250, -0.062500
                 },
@@ -1520,7 +1520,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-1.png",
             height = 168,
             render_layer = "lower-object-overlay",
-            scale = 1,
+            scale = 0.5,
             shift = {
               0.031250, -1.500000
             },
@@ -1532,7 +1532,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-2.png",
             height = 198,
             render_layer = "object-under",
-            scale = 1,
+            scale = 0.5,
             shift = {
               -0.156250, -0.375000
             },
@@ -1545,7 +1545,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-3.png",
                 height = 164,
-                scale = 1,
+                scale = 0.5,
                 shift = {
                   -0.062500, -1.281250
                 },
@@ -1578,7 +1578,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-1.png",
             height = 168,
             render_layer = "lower-object-overlay",
-            scale = 1,
+            scale = 0.5,
             shift = {
               0.031250, -1.500000
             },
@@ -1590,7 +1590,7 @@ local promethium_cargo_hub = {
             filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-2.png",
             height = 198,
             render_layer = "object-under",
-            scale = 1,
+            scale = 0.5,
             shift = {
               -0.156250, -0.375000
             },
@@ -1603,7 +1603,7 @@ local promethium_cargo_hub = {
               {
                 filename = "__base__/graphics/entity/cargo-hubs/connections/planet-connections-3.png",
                 height = 164,
-                scale = 1,
+                scale = 0.5,
                 shift = {
                   -0.062500, -1.281250
                 },
