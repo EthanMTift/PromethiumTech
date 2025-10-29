@@ -3,8 +3,14 @@
 local promethium_cargo_hub = {
     type = "technology",
     name = "promethium-landing-pad",
-    icon = "__PromethiumLandingPad__/graphics/cargo-landing-pad.png",
-    icon_size = 64,
+    icons = {
+        {
+          icon = "__base__/graphics/icons/cargo-landing-pad.png",
+          tint = {0.5, 0.5, 0.5},
+          icon_size = 64,
+        }
+    },
+    
     visible_when_disabled = true,
     effects = {{type = "unlock-recipe", recipe = "promethium-landing-pad"}},
     prerequisites = data.raw["technology"]["research-productivity"].prerequisites,

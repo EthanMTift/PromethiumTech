@@ -1958,7 +1958,7 @@ local promethium_cargo_hub = {
                 scale = 1,
                 tint = {0.5, 0.5, 0.5},
                 shift = {
-                  -0.843750, -0.062500
+                  -0.843750, -1.062500
                 },
                 width = 222,
                 x = 0,
@@ -2032,7 +2032,7 @@ local promethium_cargo_hub = {
                 scale = 1,
                 tint = {0.5, 0.5, 0.5},
                 shift = {
-                  -0.843750, -0.062500
+                  -0.843750, -1.062500
                 },
                 width = 222,
                 x = 222,
@@ -2106,7 +2106,7 @@ local promethium_cargo_hub = {
                 scale = 1,
                 tint = {0.5, 0.5, 0.5},
                 shift = {
-                  -0.843750, -0.062500
+                  -0.843750, -1.062500
                 },
                 width = 222,
                 x = 444,
@@ -2180,7 +2180,7 @@ local promethium_cargo_hub = {
                 scale = 1,
                 tint = {0.5, 0.5, 0.5},
                 shift = {
-                  -0.843750, -0.062500
+                  -0.843750, -1.062500
                 },
                 width = 222,
                 x = 666,
@@ -3239,7 +3239,12 @@ local promethium_cargo_hub = {
       rotate = false
     }
   },
-  icon = "__base__/graphics/icons/cargo-landing-pad.png",
+  icons = {
+    {
+      icon = "__base__/graphics/icons/cargo-landing-pad.png",
+      tint = {0.5, 0.5, 0.5}
+    }
+  },
   inventory_size = 320,
   max_health = 4000,
   minable = {
