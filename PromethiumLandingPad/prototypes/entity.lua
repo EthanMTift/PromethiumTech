@@ -2993,7 +2993,8 @@ local promethium_cargo_hub = {
             shift = {
               0.000000, -2.062500
             },
-            width = 498
+            width = 498,
+            tint = {0.2, 0.2, 0.2}
           },
           {
             draw_as_shadow = true,

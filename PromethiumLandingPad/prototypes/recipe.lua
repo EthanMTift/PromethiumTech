@@ -8,9 +8,10 @@ promethium_cargo_hub.allow_inserter_overload = true
 promethium_cargo_hub.overload_multiplier = 2
 promethium_cargo_hub.enabled = false
 promethium_cargo_hub.ingredients = {
-    { type = "item", name = "refined-concrete", amount = 500 },
-    { type = "item", name = "quantum-processor", amount = 80 },
-    { type = "item", name = "tungsten-plate", amount = 200 },
+    { type = "item", name = "foundation", amount = 1000 },
+    { type = "item", name = "quantum-processor", amount = 200 },
+    { type = "item", name = "tungsten-plate", amount = 400 },
+    { type = "item", name = "cargo-landing-pad", amount = 4},
     
 
 }
