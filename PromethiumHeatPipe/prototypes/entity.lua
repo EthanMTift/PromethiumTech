@@ -1429,6 +1429,7 @@ promethium_heat_pipe.heat_glow_sprites = {
   promethium_heat_pipe.icon_size = 64
   promethium_heat_pipe.impact_category = "metal"
   promethium_heat_pipe.max_health = 400
+  promethium_heat_pipe.map_color = {255, 97, 240}
   promethium_heat_pipe.minable = {
     mining_time = 0.1,
     result = "promethium-heat-pipe"

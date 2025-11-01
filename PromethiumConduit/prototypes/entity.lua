@@ -6,6 +6,7 @@ conduit_entity.icon_size = 64
 conduit_entity.minable = {mining_time = 2.5, result = "promethium-conduit"}
 conduit_entity.max_health = 800
 conduit_entity.corpse = "accumulator-remnants"
+conduit_entity.map_color = {97, 245, 255}
 conduit_entity.next_upgrade = nil 
 conduit_entity.flags = {"placeable-neutral", "placeable-player", "player-creation"}
 conduit_entity.collision_box = {{-1.5, -1.5}, {1.8, 1.8}}

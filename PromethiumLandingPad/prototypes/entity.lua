@@ -3323,7 +3323,7 @@ local promethium_cargo_hub = {
       property = "gravity"
     }
   },
-  
+  map_color = {78, 78, 78},
 }
         
 
