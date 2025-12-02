@@ -5,8 +5,15 @@ local vulcanus_digging = {
     category = "promethium-drilling",
     maximum_productivity = 9999999,
     energy_required = 1,
-    ingredients = {},
-    results = {{type="item", name="tungsten-ore", amount=4}},
+    icon = "__PromethiumTech__/graphics/icons/tungsten-harvest-icon.png",
+    ingredients = {
+        {type="fluid", name="fluoroketone-cold", amount=250}
+    },
+    results = {
+        {type="item", name="tungsten-ore", amount=4}, 
+        {type="fluid", name="fluoroketone-hot", amount=250, ignored_by_productivity = 250,
+        ignored_by_stats = 250}
+    },
     enabled = false,
     hidden_from_player_crafting = true,
     surface_conditions = {

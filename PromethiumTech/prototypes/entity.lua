@@ -41,6 +41,36 @@ local promethium_drill_entity = {
     surface_conditions = {
       {property = "pressure", min = 4000, max = 4000}
     },
+    fluid_boxes = {
+      {
+          -- Input fluid box
+          production_type = "input",
+          pipe_connections = {
+              {
+                  position = {2, -4.6}, 
+                  direction = 0,
+                  flow_direction = "input"
+              }
+          },
+          pipe_covers = pipecoverspictures(), -- uses default Factorio covers
+          volume = 1000
+      },
+      {
+          -- Output fluid box
+          production_type = "output",
+          pipe_connections = {
+              {
+                  position = {-2, -4.6}, 
+                  direction = 0,
+                  flow_direction = "output"
+              }
+          },
+          pipe_covers = pipecoverspictures(), -- default covers
+          volume = 1000
+      }
+    },
+    fluid_boxes_off_when_no_fluid_recipe = true,
+  
 
     crafting_categories = {"promethium-drilling"},
     crafting_speed = 1,
