@@ -40,7 +40,7 @@ conduit_entity.energy_source = {
   buffer_capacity = "1500MJ",
   usage_priority = "primary-output",
   output_flow_limit = "1500MW",
-  drain = "1MW"
+  drain = "5MW"
 }
 
 -- === ChargableGraphics ===

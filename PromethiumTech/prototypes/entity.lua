@@ -43,33 +43,358 @@ local promethium_drill_entity = {
     },
     fluid_boxes = {
       {
-          -- Input fluid box
-          production_type = "input",
-          pipe_connections = {
+        -- INPUT fluid box
+        production_type = "input",
+        pipe_connections = {
+          {
+            position = {2, -5},
+            direction = 0,
+            flow_direction = "input"
+          }
+        },
+    
+        -- Pipe covers (inlined)
+        pipe_covers = {
+          north = {
+            layers = {
               {
-                  position = {2, -4.6}, 
-                  direction = 0,
-                  flow_direction = "input"
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-north.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-north-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
               }
+            }
           },
-          pipe_covers = pipecoverspictures(), -- uses default Factorio covers
-          volume = 1000
+          east = {
+            layers = {
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-east.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-east-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              }
+            }
+          },
+          south = {
+            layers = {
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-south.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-south-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              }
+            }
+          },
+          west = {
+            layers = {
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-west.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-west-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              }
+            }
+          }
+        },
+    
+        -- Pipe pictures (inlined)
+        pipe_picture = {
+          north = {
+            layers = {
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-north.png",
+                width = 60,
+                height = 74,
+                scale = 0.5,
+                shift = {-0.03125, 0.703125}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-north.png",
+                draw_as_shadow = true,
+                width = 70,
+                height = 68,
+                scale = 0.5,
+                shift = {0.25, 1.265625}
+              }
+            }
+          },
+          east = {
+            layers = {
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-east.png",
+                width = 32,
+                height = 56,
+                scale = 0.5,
+                shift = {-0.640625, 0.015625}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-east.png",
+                draw_as_shadow = true,
+                width = 68,
+                height = 32,
+                scale = 0.5,
+                shift = {-0.34375, 1.28125}
+              }
+            }
+          },
+          south = {
+            layers = {
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-south.png",
+                width = 54,
+                height = 58,
+                scale = 0.5,
+                shift = {0.015625, -0.5625}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-south.png",
+                draw_as_shadow = true,
+                width = 66,
+                height = 38,
+                scale = 0.5,
+                shift = {0.1875, -0.484375}
+              }
+            }
+          },
+          west = {
+            layers = {
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-west.png",
+                width = 38,
+                height = 62,
+                scale = 0.5,
+                shift = {0.703125, 0.0625}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-west.png",
+                draw_as_shadow = true,
+                width = 68,
+                height = 36,
+                scale = 0.5,
+                shift = {1.03125, 0.265625}
+              }
+            }
+          }
+        },
+    
+        volume = 1000
       },
+    
+      -------------------------------------------------------------------------------------------------
+    
       {
-          -- Output fluid box
-          production_type = "output",
-          pipe_connections = {
+        -- OUTPUT fluid box
+        production_type = "output",
+        pipe_connections = {
+          {
+            position = {-2, -5},
+            direction = 0,
+            flow_direction = "output"
+          }
+        },
+    
+        -- Same pipe covers
+        pipe_covers = {  
+          north = {
+            layers = {
               {
-                  position = {-2, -4.6}, 
-                  direction = 0,
-                  flow_direction = "output"
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-north.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-north-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
               }
+            }
           },
-          pipe_covers = pipecoverspictures(), -- default covers
-          volume = 1000
+          east = {
+            layers = {
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-east.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-east-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              }
+            }
+          },
+          south = {
+            layers = {
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-south.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-south-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              }
+            }
+          },
+          west = {
+            layers = {
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-west.png",
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              },
+              {
+                filename = "__base__/graphics/entity/pipe-covers/pipe-cover-west-shadow.png",
+                draw_as_shadow = true,
+                priority = "extra-high",
+                width = 128,
+                height = 128,
+                scale = 0.5
+              }
+            }
+          }
+        },
+    
+        -- Same pipe pictures
+        pipe_picture = {
+          north = {
+            layers = {
+              {
+                filename = "__PromethiumTech__/graphics/entity/drill-pipe-north-promethium.png",
+                width = 60,
+                height = 89,
+                scale = 0.5,
+                shift = {-0.03125, 0.903125}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-north.png",
+                draw_as_shadow = true,
+                width = 70,
+                height = 68,
+                scale = 0.5,
+                shift = {0.25, 1.265625}
+              }
+            }
+          },
+          east = {
+            layers = {
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-east.png",
+                width = 32,
+                height = 56,
+                scale = 0.5,
+                shift = {-0.640625, 0.015625}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-east.png",
+                draw_as_shadow = true,
+                width = 68,
+                height = 32,
+                scale = 0.5,
+                shift = {-0.34375, 1.28125}
+              }
+            }
+          },
+          south = {
+            layers = {
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-south.png",
+                width = 54,
+                height = 58,
+                scale = 0.5,
+                shift = {0.015625, -0.5625}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-south.png",
+                draw_as_shadow = true,
+                width = 66,
+                height = 38,
+                scale = 0.5,
+                shift = {0.1875, -0.484375}
+              }
+            }
+          },
+          west = {
+            layers = {
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-west.png",
+                width = 38,
+                height = 62,
+                scale = 0.5,
+                shift = {0.703125, 0.0625}
+              },
+              {
+                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-west.png",
+                draw_as_shadow = true,
+                width = 68,
+                height = 36,
+                scale = 0.5,
+                shift = {1.03125, 0.265625}
+              }
+            }
+          }
+        },
+    
+        volume = 1000
       }
     },
+    
     fluid_boxes_off_when_no_fluid_recipe = true,
+    
   
 
     crafting_categories = {"promethium-drilling"},
