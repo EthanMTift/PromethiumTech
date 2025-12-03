@@ -134,84 +134,45 @@ local promethium_drill_entity = {
         },
     
         -- Pipe pictures (inlined)
-        pipe_picture = {
-          north = {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-north.png",
-                width = 60,
-                height = 74,
-                scale = 0.5,
-                shift = {-0.03125, 0.703125}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-north.png",
-                draw_as_shadow = true,
-                width = 70,
-                height = 68,
-                scale = 0.5,
-                shift = {0.25, 1.265625}
-              }
-            }
-          },
-          east = {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-east.png",
-                width = 32,
-                height = 56,
-                scale = 0.5,
-                shift = {-0.640625, 0.015625}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-east.png",
-                draw_as_shadow = true,
-                width = 68,
-                height = 32,
-                scale = 0.5,
-                shift = {-0.34375, 1.28125}
-              }
-            }
-          },
-          south = {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-south.png",
-                width = 54,
-                height = 58,
-                scale = 0.5,
-                shift = {0.015625, -0.5625}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-south.png",
-                draw_as_shadow = true,
-                width = 66,
-                height = 38,
-                scale = 0.5,
-                shift = {0.1875, -0.484375}
-              }
-            }
-          },
-          west = {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-west.png",
-                width = 38,
-                height = 62,
-                scale = 0.5,
-                shift = {0.703125, 0.0625}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-west.png",
-                draw_as_shadow = true,
-                width = 68,
-                height = 36,
-                scale = 0.5,
-                shift = {1.03125, 0.265625}
-              }
-            }
-          }
-        },
+        pipe_picture =
+{
+    north =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-up.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {0, 1},
+    },
+    south =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-down.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {0, -1},
+    },
+    east =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-right.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {-1, 0},
+    },
+    west =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-left.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {1, 0},
+    }
+},
     
         volume = 1000
       },
@@ -310,84 +271,45 @@ local promethium_drill_entity = {
         },
     
         -- Same pipe pictures
-        pipe_picture = {
-          north = {
-            layers = {
-              {
-                filename = "__PromethiumTech__/graphics/entity/drill-pipe-north-promethium.png",
-                width = 60,
-                height = 89,
-                scale = 0.5,
-                shift = {-0.03125, 0.903125}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-north.png",
-                draw_as_shadow = true,
-                width = 70,
-                height = 68,
-                scale = 0.5,
-                shift = {0.25, 1.265625}
-              }
-            }
-          },
-          east = {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-east.png",
-                width = 32,
-                height = 56,
-                scale = 0.5,
-                shift = {-0.640625, 0.015625}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-east.png",
-                draw_as_shadow = true,
-                width = 68,
-                height = 32,
-                scale = 0.5,
-                shift = {-0.34375, 1.28125}
-              }
-            }
-          },
-          south = {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-south.png",
-                width = 54,
-                height = 58,
-                scale = 0.5,
-                shift = {0.015625, -0.5625}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-south.png",
-                draw_as_shadow = true,
-                width = 66,
-                height = 38,
-                scale = 0.5,
-                shift = {0.1875, -0.484375}
-              }
-            }
-          },
-          west = {
-            layers = {
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-west.png",
-                width = 38,
-                height = 62,
-                scale = 0.5,
-                shift = {0.703125, 0.0625}
-              },
-              {
-                filename = "__space-age__/graphics/entity/electromagnetic-plant/pipe-connections/electromagnetic-plant-pipe-shadow-west.png",
-                draw_as_shadow = true,
-                width = 68,
-                height = 36,
-                scale = 0.5,
-                shift = {1.03125, 0.265625}
-              }
-            }
-          }
-        },
+        pipe_picture =
+{
+    north =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-up.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {0, 1},
+    },
+    south =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-down.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {0, -1},
+    },
+    east =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-right.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {-1, 0},
+    },
+    west =
+    {
+        filename = "__base__/graphics/entity/pipe-to-ground/pipe-to-ground-left.png",
+        priority = "extra-high",
+        width = 128,
+        height = 128,
+        scale = 0.5,
+        shift = {1, 0},
+    }
+},
     
         volume = 1000
       }
