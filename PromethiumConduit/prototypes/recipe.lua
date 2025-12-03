@@ -13,7 +13,7 @@ promethium_conduit_recipe.allow_inserter_overload = true
 promethium_conduit_recipe.overload_multiplier = 2
 promethium_conduit_recipe.category = data.raw["recipe"]["electromagnetic-science-pack"].category
 promethium_conduit_recipe.ingredients = {
-    { type = "item", name = "accumulator", amount = 60 },
+    { type = "item", name = "lightning-collector", amount = 1 },
     { type = "item", name = "lithium-plate", amount = 150 },
     { type = "fluid", name = "electrolyte", amount = 500 },
     { type = "item", name = "supercapacitor", amount = 1000 },

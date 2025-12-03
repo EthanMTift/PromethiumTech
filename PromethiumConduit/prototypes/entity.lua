@@ -1,4 +1,20 @@
-local conduit_entity = table.deepcopy(data.raw["accumulator"]["accumulator"])
+local conduit_entity = table.deepcopy(data.raw["lightning-attractor"]["lightning-collector"])
+conduit_entity.efficiency = 0.6
+conduit_entity.lightning_strike_offset = {
+  -0.7,
+  -2.5999999999999998
+}
+conduit_entity.resistances = {
+  {
+    percent = 90,
+    type = "fire"
+  },
+  {
+    percent = 100,
+    type = "electric"
+  }
+}
+conduit_entity.range_elongation = 30
 
 conduit_entity.name = "promethium-conduit"
 conduit_entity.icon = "__PromethiumConduit__/graphics/icons/promethium-conduit.png"
@@ -21,10 +37,10 @@ conduit_entity.surface_conditions = {
 -- Energy properties: much higher capacity and flow limits
 conduit_entity.energy_source = {
   type = "electric",
-  buffer_capacity = "600MJ",
-  usage_priority = "tertiary",
-  input_flow_limit = "60MW",
-  output_flow_limit = "60MW",
+  buffer_capacity = "1500MJ",
+  usage_priority = "primary-output",
+  output_flow_limit = "1500MW",
+  drain = "1MW"
 }
 
 -- === ChargableGraphics ===
