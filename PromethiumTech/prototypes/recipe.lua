@@ -35,7 +35,7 @@ promethium_drill_recipe.ingredients = {
     { type = "fluid", name = "molten-iron", amount = 800 },
     { type = "item", name = "lithium-plate", amount = 400 },
     { type = "item", name = "electric-engine-unit", amount = 150 },
-    { type = "item", name = "tungsten-plate", amount = 250 },
+    { type = "item", name = "tungsten-carbide", amount = 250 },
     { type = "item", name = "big-mining-drill", amount = 1 },
     { type = "fluid", name = "lubricant", amount = 500 },
     
