@@ -430,7 +430,7 @@ promethium_heat_pipe.heat_buffer = {
     max_temperature = 1000,
     max_transfer = "1GW",
     minimum_glow_temperature = 350,
-    specific_heat = "250kJ"
+    specific_heat = "100kJ"
 }
 promethium_heat_pipe.heat_glow_sprites = {
     corner_left_down = {
