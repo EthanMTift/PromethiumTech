@@ -3,10 +3,16 @@
 local promethium_heat_pipe_technology = {
   type = "technology",
   name = "promethium-heat-pipe",
-  icon = "__PromethiumHeatPipe__/graphics/heat-pipe.png",
+  icon = "__PromethiumHeatPipe__/graphics/AquiloThermo.png",
   icon_size = 64,
   visible_when_disabled = true,
-  effects = {{type = "unlock-recipe", recipe = "promethium-heat-pipe"}},
+  effects = {
+    
+    {type = "unlock-recipe", recipe = "promethium-heat-pipe"},
+    {type = "unlock-recipe", recipe = "frozen-biter-egg"},
+
+  
+  },
   prerequisites = data.raw["technology"]["research-productivity"].prerequisites,
   unit = {
     count = 1000000,

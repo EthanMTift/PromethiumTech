@@ -26,5 +26,38 @@ promethium_heat_pipe.results = {
     { type = "item", name = "promethium-heat-pipe", amount = 1 }
 }
 
+local frozen_biter_egg = table.deepcopy(data.raw["recipe"]["captive-biter-spawner"])
+
+frozen_biter_egg.name = "frozen-biter-egg"
+frozen_biter_egg.icon = "__PromethiumHeatPipe__/graphics/frozen-biter-egg.png"
+frozen_biter_egg.icon_size = 64
+frozen_biter_egg.enabled = false
+frozen_biter_egg.hidden_from_player_crafting = true
+frozen_biter_egg.allow_inserter_overload = true
+frozen_biter_egg.overload_multiplier = 2
+frozen_biter_egg.energy_required = 120
+frozen_biter_egg.allow_quality = false
+
+
+frozen_biter_egg.reset_freshness_on_craft = false
+frozen_biter_egg.surface_conditions = {
+    { property = "pressure", min = 300, max = 300 }
+}
+
+-- Ingredients for the Promethium Heater
+frozen_biter_egg.ingredients = {
+    { type = "item", name = "biter-egg", amount = 10 },
+    { type = "item", name = "ice", amount = 10 },
+}
+
+-- The results field
+frozen_biter_egg.results = {
+    { type = "item", name = "frozen-biter-egg", amount = 10 }
+}
 
 data:extend({promethium_heat_pipe})
+data:extend({frozen_biter_egg})
+
+
+
+
