@@ -44,19 +44,51 @@ frozen_biter_egg.surface_conditions = {
     { property = "pressure", min = 300, max = 300 }
 }
 
--- Ingredients for the Promethium Heater
+-- Ingredients
 frozen_biter_egg.ingredients = {
     { type = "item", name = "biter-egg", amount = 10 },
     { type = "item", name = "ice", amount = 10 },
+    { type = "fluid", name = "fluoroketone-cold", amount = 5 },
 }
 
 -- The results field
 frozen_biter_egg.results = {
-    { type = "item", name = "frozen-biter-egg", amount = 10 }
+    { type = "item", name = "frozen-biter-egg", amount = 10 },
+
 }
+
+
+local thawed_biter_egg = table.deepcopy(data.raw["recipe"]["lithium-plate"])
+
+thawed_biter_egg.name = "thawed-biter-egg"
+thawed_biter_egg.icon = "__PromethiumHeatPipe__/graphics/thawed-biter-egg.png"
+thawed_biter_egg.icon_size = 64
+thawed_biter_egg.enabled = false
+thawed_biter_egg.hidden_from_player_crafting = true
+thawed_biter_egg.allow_inserter_overload = true
+thawed_biter_egg.overload_multiplier = 2
+thawed_biter_egg.energy_required = 30
+thawed_biter_egg.allow_quality = false
+thawed_biter_egg.allow_productivity = false
+
+
+thawed_biter_egg.reset_freshness_on_craft = false
+
+
+-- Ingredients 
+thawed_biter_egg.ingredients = {
+    { type = "item", name = "frozen-biter-egg", amount = 10 },
+}
+
+-- The results field
+thawed_biter_egg.results = {
+    { type = "item", name = "biter-egg", amount = 10 }
+}
+
 
 data:extend({promethium_heat_pipe})
 data:extend({frozen_biter_egg})
+data:extend({thawed_biter_egg})
 
 
 

@@ -10,6 +10,7 @@ local promethium_heat_pipe_technology = {
     
     {type = "unlock-recipe", recipe = "promethium-heat-pipe"},
     {type = "unlock-recipe", recipe = "frozen-biter-egg"},
+    {type = "unlock-recipe", recipe = "thawed-biter-egg"},
 
   
   },
