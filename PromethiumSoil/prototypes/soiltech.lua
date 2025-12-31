@@ -24,7 +24,7 @@ local soilTechnology = {
       },
     prerequisites = data.raw["technology"]["research-productivity"].prerequisites,
     allows_productivity = true,
-    effects = {{type = "unlock-recipe", recipe = "promethium-jellynut-soil"}, {type = "unlock-recipe", recipe = "promethium-yumako-soil"}}
+    effects = {{type = "unlock-recipe", recipe = "promethium-jellynut-soil"}, {type = "unlock-recipe", recipe = "promethium-yumako-soil"}, {type = "unlock-recipe", recipe = "promethium-compost"}}
 
 
 }
