@@ -48,7 +48,7 @@ frozen_biter_egg.surface_conditions = {
 frozen_biter_egg.ingredients = {
     { type = "item", name = "biter-egg", amount = 10 },
     { type = "item", name = "ice", amount = 10 },
-    { type = "fluid", name = "fluoroketone-cold", amount = 5 },
+    { type = "fluid", name = "fluoroketone-cold", amount = 20 },
 }
 
 -- The results field
