@@ -67,7 +67,7 @@ thawed_biter_egg.enabled = false
 thawed_biter_egg.hidden_from_player_crafting = true
 thawed_biter_egg.allow_inserter_overload = true
 thawed_biter_egg.overload_multiplier = 2
-thawed_biter_egg.energy_required = 30
+thawed_biter_egg.energy_required = 3
 thawed_biter_egg.allow_quality = false
 thawed_biter_egg.allow_productivity = false
 
@@ -77,12 +77,12 @@ thawed_biter_egg.reset_freshness_on_craft = false
 
 -- Ingredients 
 thawed_biter_egg.ingredients = {
-    { type = "item", name = "frozen-biter-egg", amount = 10 },
+    { type = "item", name = "frozen-biter-egg", amount = 1 },
 }
 
 -- The results field
 thawed_biter_egg.results = {
-    { type = "item", name = "biter-egg", amount = 10 }
+    { type = "item", name = "biter-egg", amount = 1 }
 }
 
 
