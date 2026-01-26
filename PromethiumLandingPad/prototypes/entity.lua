@@ -8643,7 +8643,7 @@ local promethium_cargo_hub = {
       tint = {0.5, 0.5, 0.5}
     }
   },
-  inventory_size = 2400,
+  inventory_size = 24000,
   max_health = 9001,
   minable = {
     mining_time = 1,

@@ -11,6 +11,7 @@ yumakoRecipe.surface_conditions = {
 yumakoRecipe.ingredients = {
   { type = "item",  name = "overgrowth-yumako-soil", amount = 2 },
   { type = "item",  name = "foundation", amount = 1 },
+  { type = "item",  name = "promethium-compost", amount = 1 },
   { type = "item", name = "tree-seed", amount = 5 },
 }
 
