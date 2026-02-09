@@ -11,8 +11,8 @@ local vulcanus_digging = {
     },
     results = {
         {type="item", name="tungsten-ore", amount=4}, 
-        {type="fluid", name="fluoroketone-hot", amount=250, ignored_by_productivity = 250,
-        ignored_by_stats = 250}
+        {type="fluid", name="fluoroketone-hot", amount=245, ignored_by_productivity = 245,
+        ignored_by_stats = 245}
     },
     enabled = false,
     hidden_from_player_crafting = true,
