@@ -24,7 +24,11 @@ treeItem.place_as_tile.tile_condition = {
   "dirt-5",
   "dirt-6",
   "dirt-7",
-  "dry-dirt"
+  "dry-dirt",
+  "grass-1",
+  "grass-2",
+  "grass-3",
+  "grass-4",
   
 
   
