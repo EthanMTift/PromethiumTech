@@ -134,6 +134,9 @@ conduit_entity.working_sound = {
   apparent_volume = 1.5
 }
 
-
+conduit_entity.factoriopedia_simulation = {
+  init = "    require(\"__core__/lualib/story\")\n    game.simulation.camera_zoom = 1.2    game.simulation.camera_position = {0, -2}\n    game.surfaces[1].create_entity{name = \"promethium-conduit\", position = {0, 0}}\n    local story_table =\n    {\n      {\n        {\n          name = \"start\",\n          action = function() game.surfaces[1].execute_lightning{name = \"lightning\", position = {0, 2}} end\n        },\n        {\n          condition = story_elapsed_check(1),\n          action = function() story_jump_to(storage.story, \"start\") end\n        }\n      }\n    }\n    tip_story_init(story_table)\n  ",
+  planet = "fulgora"
+},
 
 data:extend({conduit_entity})
