@@ -8,4 +8,4 @@ data.raw["tool"]["promethium-science-pack"].ingredients = {
     { type = "item",  name = "promethium-chunk", amount = 12 },
 }
 data.raw["tool"]["promethium-science-pack"].spoil_ticks = 4294967295
-data.raw["item"]["promethium-asteroid-chunk"].spoil_ticks = 216000
+data.raw["item"]["promethium-asteroid-chunk"].spoil_ticks = 108000
