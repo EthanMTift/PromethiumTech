@@ -7,6 +7,11 @@ require("prototypes.tile")
 data.raw["cargo-wagon"]["cargo-wagon"].quality_affects_inventory_size = true
 data.raw["fluid-wagon"]["fluid-wagon"].quality_affects_capacity = true
 
+data.raw["recipe"]["oxide-asteroid-reprocessing"].allow_quality = false
+data.raw["recipe"]["carbonic-asteroid-reprocessing"].allow_quality = false
+data.raw["recipe"]["metallic-asteroid-reprocessing"].allow_quality = false
+
+
 data.raw["recipe"]["promethium-science-pack"].ingredients = {
     { type = "item",  name = "biter-egg", amount = 10 },
     { type = "item",  name = "quantum-processor", amount = 1 },
