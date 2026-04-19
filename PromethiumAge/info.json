@@ -1,10 +1,11 @@
 {
     "name": "PromethiumAge",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "title": "Promethium Soil",
     "author": "theFALGSCmustgrow",
     "factorio_version": "2.0",
     "dependencies": ["base >= 2.0", "space-age >= 2.0"],
-    "description": "Adds late game technologies locked behind Promethium Science."
+    "description": "Adds late game technologies locked behind Promethium Science.",
+    "space_travel_required": true
   }
   
